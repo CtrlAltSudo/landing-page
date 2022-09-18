@@ -1,6 +1,9 @@
+body {
+    background-color: #23395D;
+    color: white;
+}
 .top-container {
     display: flex;
-    background-color: #23395D;
 }
 .nav {
     display: flex;
