@@ -1,1 +1,1 @@
-# landing-page
+<p>This is an assignment project for the Odin Project</p>
