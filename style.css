@@ -1,6 +1,9 @@
 body {
     background-color: #23395D;
     color: white;
+    margin: 0px;
+    padding: 0px;
+
 }
 .top-container {
     display: flex;
@@ -21,6 +24,7 @@ body {
     justify-content: center;
     gap: 50px;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 .main-head {
     width: 485px;
@@ -34,4 +38,58 @@ body {
     text-align: center;
     color: white;
     padding-top: 70px;
+}
+.main-button { 
+    width: 90px;
+    height: 30px;
+    padding-top: 3px;
+    color: white;
+    background-color: #1DA1F2;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.second-container {
+    text-align: center;
+    background-color: white;
+    height: 440px;
+    margin-bottom: -30px;
+}
+.second-h1 {
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px
+}
+.img2 {
+    width: 130px;
+    height: 130px;
+    border: solid #1DA1F2;
+    border-radius: 10px;
+}
+.img-des {
+    color: black;
+    margin-top: 140px;
+}
+.third-container {
+    height: 400px;
+    background-color: grey;
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.thor-quote {
+    width: 300px;
+    font-size: 30px;
+    font-style: italic;
+}
+.quote-by {
+    width: 200px;
+    ;
 }
