@@ -76,7 +76,7 @@ body {
     margin-top: 140px;
 }
 .third-container {
-    height: 400px;
+    height: 350px;
     background-color: grey;
 }
 .quote {
@@ -96,4 +96,51 @@ body {
 .quote-by {
     width: 600px;
     text-align: end;
+}
+
+.fourth-container {
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 800px;
+    height: 110px;
+    background-color: #1DA1F2;
+    margin-top: 70px;
+    border-radius: 5px;
+}
+
+.text-top-banner, .text-bottom-banner  {
+    margin-bottom: -15px;
+    padding-left: 90px;
+}
+.text-top-banner {
+    padding-top: 20px;
+}
+.button-banner {
+    width: 100px;
+    align-self: flex-end;
+    margin-right: 100px;
+    margin-top: -13px;
+    border: 2px solid #ffff;
+    background-color: #1DA1F2;
+    color: white;
+    border-radius: 4px;
+    padding: 3px;
+}
+.footer-container {
+    height: 50px;
+    background-color: #23395D;
+}
+.copyright-tdp {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
 }
