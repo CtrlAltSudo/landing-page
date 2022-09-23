@@ -1,5 +1,8 @@
+* { 
+    font-family: 'Roboto', sans-serif;
+}
 body {
-    background-color: #23395D;
+    background-color: #1f2937;
     color: white;
     margin: 0px;
     padding: 0px;
@@ -15,9 +18,14 @@ body {
     margin-right: 200px;
     justify-content: space-around;
     gap: 10px;
+    font-weight: 300;
 }
 .header-logo {
     margin-left: 200px;
+    font-size: 38px;
+}
+.header-logo h1 {
+    font-size: 28px;
 }
 .main-block {
     display: flex;
@@ -28,6 +36,16 @@ body {
 }
 .main-head {
     width: 485px;
+}
+.main-head h1 { 
+    font-size: 48px;
+    margin-bottom: -10px;
+}
+.main-text {
+    font-size: 18px; 
+    color: #F9FAF8;
+    font-weight: 100;
+    margin-top: 10px;
 }
 .img-container {
     background: grey;
@@ -48,6 +66,7 @@ body {
     border: none;
     cursor: pointer;
     border-radius: 4px;
+    margin-top: 10px;
 }
 .second-container {
     text-align: center;
@@ -74,10 +93,12 @@ body {
 .img-des {
     color: black;
     margin-top: 140px;
+    font-weight: 300;
+    font-size: 14px;
 }
 .third-container {
     height: 350px;
-    background-color: grey;
+    background-color: #E5E7EB;
 }
 .quote {
     display: flex;
@@ -89,13 +110,23 @@ body {
 .thor-quote {
     margin-top: 100px;
     width: 600px;
-    font-size: 30px;
+    font-size: 28px;
     font-style: italic;
+    font-weight: 100;
+    background-color: #E5E7EB;
+    color: #1F2937;
 
 }
 .quote-by {
     width: 600px;
     text-align: end;
+    margin-right: 50px;
+    margin-top: -30px;
+}
+.quoted { 
+ color: black;
+ font-weight: 700;
+ font-size: 14px;
 }
 
 .fourth-container {
@@ -112,17 +143,25 @@ body {
     flex-direction: column;
     width: 800px;
     height: 110px;
-    background-color: #1DA1F2;
+    background-color: #3882F6;
     margin-top: 70px;
     border-radius: 5px;
 }
 
 .text-top-banner, .text-bottom-banner  {
-    margin-bottom: -15px;
+    margin-bottom: -14px;
     padding-left: 90px;
 }
 .text-top-banner {
     padding-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+.text-bottom-banner {
+    color: #cecece;
+    font-size: 13px;
+    font-weight: 300;
 }
 .button-banner {
     width: 100px;
@@ -130,14 +169,14 @@ body {
     margin-right: 100px;
     margin-top: -13px;
     border: 2px solid #ffff;
-    background-color: #1DA1F2;
+    background-color: #3882F6;
     color: white;
     border-radius: 4px;
     padding: 3px;
 }
 .footer-container {
     height: 50px;
-    background-color: #23395D;
+    background-color: #1f2937;
 }
 .copyright-tdp {
     text-align: center;
